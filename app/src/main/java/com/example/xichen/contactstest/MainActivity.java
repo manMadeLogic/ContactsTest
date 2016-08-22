@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         getContact();
         ArrayAdapter adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, contactList);
         contact.setAdapter(adapter);
+//        getContact();
     }
 
     public void getContact() {
